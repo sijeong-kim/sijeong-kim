@@ -29,7 +29,7 @@ Python · PyTorch · C/C++ · CUDA · TensorRT · FastAPI · Docker · AWS · Li
 *(More structured READMEs and demos coming as part of the ongoing update)*
 
 ### 1) Repulsive 3D Gaussian Splatting (text-to-3D)
-Feature-space repulsion (CLIP/DINOv2) + 3DGS for diverse and stable generation.  
+Feature-space repulsion (DINOv2) + 3DGS for diverse and stable generation.  
 - **~98% ↑ semantic diversity**
 - **Fidelity preserved** (ΔCLIP ≈ **−0.006**)
 - **Multi-view consistency** C > 0.83
