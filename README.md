@@ -1,40 +1,58 @@
-![header](https://capsule-render.vercel.app/api?type=slice&section=header&color=30D5C8&customColorList=21&height=150&animation=fadeIn&text=Hi,%20I'm%20Sijeong.%20&rotate=10&fontColor=fff&fontSize=46&fontAlign=60&fontAlignY=35)
+<!-- Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=slice&section=header&color=30D5C8&height=140&animation=fadeIn&text=Hi,%20I'm%20Sijeong.&fontColor=ffffff&fontSize=42&fontAlign=65&fontAlignY=35" alt="header">
+</p>
 
-<div align="center">
-<b> 🔭 I'm interested in  🔭 </b>
-</br>
-<code>Computer Vision</code>
-</br>
-<code>3D Generative Models</code> 
-</br>
-<code>Probabilistic ML</code> 
+<p align="center">
+  <b>Research Engineer in Generative 3D Perception</b><br/>
+  Diffusion-based 3D generation · 3D Gaussian Splatting · Feature-space repulsion · Human-centric AI
+</p>
 
-</br>
-</br>
+<p align="center">
+  <a href="mailto:ssonge413@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Email-ssonge413%40gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square"></a>
+  <a href="https://www.linkedin.com/in/sijeong-kim"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Sijeong%20Kim-0A66C2?logo=linkedin&logoColor=white&style=flat-square"></a>
+  <a href="https://github.com/sijeong-kim"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-sijeong--kim-000000?logo=github&logoColor=white&style=flat-square"></a>
+  <a href="https://github.com/sijeong-kim/sijeong-kim/raw/main/CV.pdf"><img alt="CV" src="https://img.shields.io/badge/CV-Download-1f7a8c?style=flat-square"></a>
+</p>
 
-<b>✨ Tech Stack ✨</b>  
+---
 
-<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=Pytorch&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=OpenCV&logoColor=white"/></a>
-</br>
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/></a>
+### 🔭 Interests
+`Computer Vision` · `3D Generative Models` · `Probabilistic ML`
 
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ssonge413)](https://solved.ac/ssonge413)
+### 🛠 Tech
+Python · PyTorch · C/C++ · TensorRT · FastAPI · Docker · AWS · Linux
 
+---
 
-<b> 👋 Contact me at </b> 
-[![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ssonge413@gmail.com)](mailto:ssonge413@gmail.com) 
-</div>
- 
-![footer](https://capsule-render.vercel.app/api?type=wave&section=footer&color=CAFCEA&customColorList=21&height=150)
+## ⭐ Selected Projects
 
+### 1) Repulsive 3D Gaussian Splatting (text-to-3D)
+**Feature-space repulsion (CLIP/DINOv2) + 3DGS** for diverse & stable generation.  
+- ~**98%** semantic diversity ↑ with near-constant fidelity (ΔCLIP ≈ **−0.006**), multi-view consistency **C>0.83**  
+- Human study (**n=41**) + PCA representation analysis  
+- Scalable **N-parallel** training & reproducible pipeline  
+Repo: `sijeong-kim/3D-Generation` · *(demo GIF here)*
+
+### 2) Truncation-Robust 3D Human Pose Estimation
+Hybrid lifting with MeTRAbs heatmaps + temporal models (VideoPose3D, MHFormer, MixSTE, P-STMO).  
+- Under truncation, **~37% MPJPE reduction** (Human3.6M)  
+- Modular train/eval pipeline for reproducibility  
+Repo: `sijeong-kim/Truncation-Robust-3D-Human-Pose-Estimation`
+
+### 3) Tori – Personalized AI Fairytale Book
+Multimodal storytelling (LLM + diffusion + text-to-music), FastAPI+Nginx multi-GPU backend.  
+- LoRA-tuned SD & HyperCLOVA X · Capstone **Excellence Award (2023)**  
+Repo: `6garlics/tori-ai`
+
+---
+
+## 📄 Education
+- **MSc Computing (AI & ML), Imperial College London — Distinction**  
+- **BSc CSE, Ewha Womans University — Summa Cum Laude (GPA 4.2/4.3)**
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=wave&section=footer&color=CAFCEA&height=120" alt="footer">
+</p>
