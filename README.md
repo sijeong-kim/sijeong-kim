@@ -6,6 +6,8 @@
 <p align="center">
   <b>Research Engineer in Generative 3D Perception</b><br/>
   Diffusion-based 3D generation · 3D Gaussian Splatting · Feature-space repulsion · Human-centric AI
+  <br/>
+  <i>(Currently updating GitHub repositories – new demos and project pages are coming soon)</i>
 </p>
 
 <p align="center">
@@ -26,23 +28,25 @@ Python · PyTorch · C/C++ · TensorRT · FastAPI · Docker · AWS · Linux
 ---
 
 ## ⭐ Selected Projects
+*(More structured READMEs and demos coming as part of the ongoing GitHub update)*
 
 ### 1) Repulsive 3D Gaussian Splatting (text-to-3D)
 **Feature-space repulsion (CLIP/DINOv2) + 3DGS** for diverse & stable generation.  
-- ~**98%** semantic diversity ↑ with near-constant fidelity (ΔCLIP ≈ **−0.006**), multi-view consistency **C>0.83**  
-- Human study (**n=41**) + PCA representation analysis  
-- Scalable **N-parallel** training & reproducible pipeline  
-Repo: `sijeong-kim/3D-Generation` · *(demo GIF here)*
+- **~98% semantic diversity ↑**, fidelity maintained (ΔCLIP ≈ **−0.006**)  
+- Multi-view consistency **C > 0.83**, human study (**n=41**)  
+- Scalable **N-parallel** training, reproducible pipeline  
+Repo: `sijeong-kim/3D-Generation` *(demo uploading soon)*
 
 ### 2) Truncation-Robust 3D Human Pose Estimation
-Hybrid lifting with MeTRAbs heatmaps + temporal models (VideoPose3D, MHFormer, MixSTE, P-STMO).  
+Combined 2D lifting + temporal models (VideoPose3D, MHFormer, MixSTE, P-STMO).  
 - Under truncation, **~37% MPJPE reduction** (Human3.6M)  
-- Modular train/eval pipeline for reproducibility  
 Repo: `sijeong-kim/Truncation-Robust-3D-Human-Pose-Estimation`
 
 ### 3) Tori – Personalized AI Fairytale Book
-Multimodal storytelling (LLM + diffusion + text-to-music), FastAPI+Nginx multi-GPU backend.  
-- LoRA-tuned SD & HyperCLOVA X · Capstone **Excellence Award (2023)**  
+Multimodal storytelling (LLM + diffusion + text-to-music).  
+- LoRA-tuned SD & HyperCLOVA X  
+- FastAPI + Nginx multi-GPU pipeline  
+- **Excellence Award (2023)**  
 Repo: `6garlics/tori-ai`
 
 ---
