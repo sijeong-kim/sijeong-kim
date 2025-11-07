@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <b>Research Engineer in Generative 3D Perception</b><br/>
-  Building diffusion-based 3D generation with Gaussian Splatting, feature-space guidance, and human-centric evaluation.<br/>
-  <i>(Currently restructuring repositories — demos, evaluation scripts, and project pages are being added progressively.)</i>
+  <b>Deep Learning & Computer Vision Engineer</b><br/>
+  Building end-to-end learning systems for 2D/3D perception, generative models, and human-centric AI.<br/>
+  <i>(Currently restructuring repositories — demos, evaluation scripts, and project pages being added progressively.)</i>
 </p>
 
 <p align="center">
@@ -18,10 +18,10 @@
 ---
 
 ### 🔭 Interests
-`Computer Vision` · `3D Generative Models` · `Probabilistic ML`
+`Computer Vision` · `3D Generative Models` · `Generative AI` · `Probabilistic ML`
 
 ### 🛠 Tech
-Python · PyTorch · C/C++ · CUDA · TensorRT · FastAPI · Docker · AWS · Linux
+Python · PyTorch · C/C++ · CUDA · FastAPI · Docker · AWS · Linux
 
 ---
 
@@ -34,7 +34,7 @@ Feature-space repulsion (DINOv2) + 3DGS for diverse and stable generation.
 - **Fidelity preserved** (ΔCLIP ≈ **−0.006**)
 - **Multi-view consistency** C > 0.83
 - **Human study (n = 41)**
-- Scalable **N-parallel** training, reproducible pipeline  
+- Scalable **N-parallel** training, reproducible pipeline
 Repo: `sijeong-kim/3D-Generation` *(demo uploading soon)*
 
 ### 2) Truncation-Robust 3D Human Pose Estimation
