@@ -52,6 +52,14 @@ Multimodal storytelling platform integrating text, image, and music generation A
 - Explored Stable Diffusion + LoRA for stylized image generation  
 📂 Repo: `6garlics/tori-ai`
 
+
+---
+### 4) Real-Time Object Detection and Gesture-Controlled Robotics
+Real-time edge vision system for human following and gesture-based robot control on NVIDIA Jetson Xavier.  
+- Ran at **~10–15 FPS** on-device using a lightweight perception pipeline with TensorRT deployment  
+- Used DeepSORT for reliable target re-identification in crowded indoor environments  
+- Implemented depth-aware hand gesture recognition with skeleton estimation and RGB-D sensing  
+📂 Repo: `sijeong-kim/RealTime-Object-Detection`
 ---
 
 ## 📄 Education
