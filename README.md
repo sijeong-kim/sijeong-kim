@@ -41,9 +41,7 @@ Feature-space repulsion (DINOv2) + 3DGS for diverse and stable text-to-3D genera
 ### 2) Truncation-Robust 3D Human Pose Estimation
 Fusion of 2D lifting + temporal transformer models (VideoPose3D, MHFormer, MixSTE, P-STMO) for truncation-aware pose estimation.  
 - **~37% ↓ MPJPE** on Human3.6M under truncation  
-- **Integrated & deployed** at **KIST** (Korea’s national flagship research institute)  
-- Some implementation details remain private due to institutional policy  
-📂 Repo: `sijeong-kim/Truncation-Robust-3D-Human-Pose-Estimation` *(limited release)*
+📂 Repo: `sijeong-kim/Truncation-Robust-3D-Human-Pose-Estimation`
 
 ---
 
