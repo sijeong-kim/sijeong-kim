@@ -3,9 +3,8 @@
 </p>
 
 <p align="center">
-  <b>Deep Learning & Computer Vision Engineer</b><br/>
-  Building reliable 2D/3D perception systems and generative models for real-world applications.<br/>
-  <i>(Currently restructuring repositories — demos, evaluation scripts, and project pages are being added progressively.)</i>
+  <b>3D AI Engineer & Researcher</b><br/>
+  Building robust 3D perception and controllable 3D generation systems, with a focus on reproducible and deployable AI for real-world applications.<br/>
 </p>
 
 <p align="center">
@@ -17,7 +16,7 @@
 ---
 
 ### 🔭 Interests
-`Computer Vision` · `3D Generative Models` · `Generative AI` · `Probabilistic ML`
+`3D Vision` · `3D Generative Models` · `Generative AI` · `Probabilistic ML`
 
 ### 🛠 Tech
 Python · PyTorch · C/C++ · CUDA · FastAPI · Docker · AWS · Linux
@@ -25,38 +24,40 @@ Python · PyTorch · C/C++ · CUDA · FastAPI · Docker · AWS · Linux
 ---
 
 ## ⭐ Selected Projects
-*(More structured READMEs, demos, and weights will be available as repositories are updated)*
+*(More structured READMEs, demos, and project pages will be added as repositories are updated.)*
 
-### 1) Repulsive 3D Gaussian Splatting (text-to-3D)
-Feature-space repulsion (DINOv2) + 3DGS for diverse and stable text-to-3D generation.  
-- **~98% ↑ semantic diversity**  
-- **Fidelity preserved** (ΔCLIP ≈ **−0.006**)  
-- **Multi-view consistency** C > 0.83  
-- **Human perceptual study** (n = 41)  
+### 1) Repulsive 3D Gaussian Splatting
+MSc thesis project on feature-space repulsion (DINOv2) with 3D Gaussian Splatting for diverse and stable text-to-3D generation.  
+- **~98% increase in semantic diversity**
+- **Fidelity preserved** (ΔCLIP ≈ **−0.006**)
+- **Multi-view consistency** C > 0.83
+- **Human perceptual study** (n = 41)
 - Scalable **N-parallel** pipeline with reproducible experiments  
 📂 Repo: `sijeong-kim/3D-Generation`
 
 ---
 
 ### 2) Truncation-Robust 3D Human Pose Estimation
-Fusion of 2D lifting + temporal transformer models (VideoPose3D, MHFormer, MixSTE, P-STMO) for truncation-aware pose estimation.  
-- **~37% ↓ MPJPE** on Human3.6M under truncation  
+Monocular 3D human pose pipeline combining heatmap-based 2D keypoints with temporal 2D-to-3D models (VideoPose3D, MHFormer, MixSTE, P-STMO).  
+- **~37% reduction in MPJPE** on Human3.6M under truncation
+- Synthetic truncation benchmarks across multiple occlusion settings  
 📂 Repo: `sijeong-kim/Truncation-Robust-3D-Human-Pose-Estimation`
 
 ---
 
 ### 3) Tori — Personalized AI Fairytale Book
-Real-time multimodal storytelling (LLM + diffusion + text-to-music).  
-- FastAPI + Nginx + GPU pipeline
-- Explored LoRA-tuned Stable Diffusion
-📂 Repo: `6garlics/tori-ai`  
+Multimodal storytelling platform integrating text, image, and music generation APIs.  
+- Led AI development and system design
+- Built a FastAPI + Nginx multi-GPU inference pipeline
+- Explored Stable Diffusion + LoRA for stylized image generation  
+📂 Repo: `6garlics/tori-ai`
 
 ---
 
 ## 📄 Education
-- **MSc Computing (AI & ML), Imperial College London — Distinction**  
-  Thesis: *Diversify Guided 3D Generation via Repulsive 3D Gaussian Splatting*  
-- **BSc Computer Science, Ewha Womans University — Summa Cum Laude (GPA 4.2/4.3)**
+- **MSc Computing (Artificial Intelligence and Machine Learning), Imperial College London — Distinction**  
+  Thesis: *Diversify Guided 3D Generation via Repulsive 3D Gaussian Splatting*
+- **BSc Computer Science and Engineering, Ewha Womans University — Summa Cum Laude (GPA: 4.2/4.3)**
 
 ---
 
