@@ -34,7 +34,7 @@ Feature-space repulsion (DINOv2) + 3DGS for diverse and stable text-to-3D genera
 - **Multi-view consistency** C > 0.83  
 - **Human perceptual study** (n = 41)  
 - Scalable **N-parallel** pipeline with reproducible experiments  
-📂 Repo: `sijeong-kim/3D-Generation` *(demo uploading soon)*
+📂 Repo: `sijeong-kim/3D-Generation`
 
 ---
 
