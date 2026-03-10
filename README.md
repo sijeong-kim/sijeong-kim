@@ -47,10 +47,9 @@ Fusion of 2D lifting + temporal transformer models (VideoPose3D, MHFormer, MixST
 
 ### 3) Tori — Personalized AI Fairytale Book
 Real-time multimodal storytelling (LLM + diffusion + text-to-music).  
-- LoRA-tuned Stable Diffusion & HyperCLOVA X  
-- FastAPI + Nginx + GPU pipeline  
+- FastAPI + Nginx + GPU pipeline
+- Explored LoRA-tuned Stable Diffusion
 📂 Repo: `6garlics/tori-ai`  
-*(Live service was deployed in 2023, now archived but code fully available.)*
 
 ---
 
