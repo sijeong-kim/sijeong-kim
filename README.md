@@ -51,7 +51,6 @@ Fusion of 2D lifting + temporal transformer models (VideoPose3D, MHFormer, MixST
 Real-time multimodal storytelling (LLM + diffusion + text-to-music).  
 - LoRA-tuned Stable Diffusion & HyperCLOVA X  
 - FastAPI + Nginx + GPU pipeline  
-- **Excellence Award (2023)**  
 📂 Repo: `6garlics/tori-ai`  
 *(Live service was deployed in 2023, now archived but code fully available.)*
 
