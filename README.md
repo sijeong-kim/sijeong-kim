@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <b>3D AI Engineer & Researcher</b><br/>
-  Building robust 3D perception and controllable 3D generation systems, with a focus on reproducible and deployable AI for real-world applications.<br/>
+  <b>AI Engineer & Researcher</b><br/>
+  I build vision, multimodal, and generative AI systems from research to deployment, with a focus on robust real-world inference, reproducible experimentation, and practical user-facing products.
 </p>
 
 <p align="center">
@@ -16,56 +16,83 @@
 ---
 
 ### 🔭 Interests
-`3D Vision` · `3D Generative Models` · `Generative AI` · `Probabilistic ML`
+`Generative AI` · `Multimodal AI` · `Computer Vision` · `3D Vision` · `Edge AI` · `ML Systems`
 
 ### 🛠 Tech
-Python · PyTorch · C/C++ · CUDA · FastAPI · Docker · AWS · Linux
+`Python` · `PyTorch` · `C/C++` · `CUDA` · `TensorRT` · `FastAPI` · `Docker` · `AWS` · `Linux`
 
 ---
 
 ## ⭐ Selected Projects
-*(More structured READMEs, demos, and project pages will be added as repositories are updated.)*
 
 ### 1) Repulsive 3D Gaussian Splatting
-MSc thesis project on feature-space repulsion (DINOv2) with 3D Gaussian Splatting for diverse and stable text-to-3D generation.  
-- **~98% increase in semantic diversity**
-- **Fidelity preserved** (ΔCLIP ≈ **−0.006**)
-- **Multi-view consistency** C > 0.83
-- **Human perceptual study** (n = 41)
-- Scalable **N-parallel** pipeline with reproducible experiments  
-📂 Repo: `sijeong-kim/3D-Generation`
+**MSc thesis project** on improving diversity in diffusion-based text-to-3D generation with feature-space repulsion on top of 3D Gaussian Splatting.
+
+- Introduced repulsive loss in **DINOv2 / CLIP feature space**
+- Improved **semantic diversity from 0.132 to 0.262 (~98%)**
+- Preserved quality with near-constant fidelity (**0.391 → 0.397**) and high cross-view consistency (**0.853 → 0.828**)
+- Validated results through **PCA analysis** and a **human perceptual study (n = 41)**
+- Built a scalable **N-parallel** experimental pipeline with modest efficiency overhead
 
 ---
 
-### 2) Truncation-Robust 3D Human Pose Estimation
-Monocular 3D human pose pipeline combining heatmap-based 2D keypoints with temporal 2D-to-3D models (VideoPose3D, MHFormer, MixSTE, P-STMO).  
-- **~37% reduction in MPJPE** on Human3.6M under truncation
-- Synthetic truncation benchmarks across multiple occlusion settings  
-📂 Repo: `sijeong-kim/Truncation-Robust-3D-Human-Pose-Estimation`
+### 2) Tori — Personalized AI Fairytale Book Platform
+**Capstone project** for generating and sharing personalized fairytale books from children's diary inputs.
+
+- Built an end-to-end multimodal pipeline: **diary → story, illustrations, and background music**
+- Integrated **HyperCLOVA X**, **ChatGPT**, **DALL·E**, and **MusicGen**
+- Led AI development and designed the optimized AI serving stack with **FastAPI**, **Nginx**, and asynchronous parallel processing
+- Worked within a service architecture using **React/Vercel**, **Spring**, **Redis**, and **AWS S3**
+- Explored **Stable Diffusion v1.4 + LoRA / Textual Inversion** for style-consistent illustration generation under limited GPU resources
 
 ---
 
-### 3) Tori — Personalized AI Fairytale Book
-Multimodal storytelling platform integrating text, image, and music generation APIs.  
-- Led AI development and system design
-- Built a FastAPI + Nginx multi-GPU inference pipeline
-- Explored Stable Diffusion + LoRA for stylized image generation  
-📂 Repo: `6garlics/tori-ai`
+### 3) Truncation-Robust 3D Human Pose Estimation
+**Research project** on robust monocular 3D human pose estimation under truncation and occlusion.
 
+- Combined a **volumetric heatmap-based 2D pose detector** with temporal **2D-to-3D lifting models**
+- Built a reproducible truncation benchmark across **VideoPose3D, MHFormer, MixSTE, and P-STMO**
+- Evaluated robustness under **random, fixed, and moving masking** settings on **Human3.6M**
+- Achieved strong robustness gains under truncation across major backbones in MPJPE benchmarks
 
 ---
+
 ### 4) Real-Time Object Detection and Gesture-Controlled Robotics
-Real-time edge vision system for human following and gesture-based robot control on NVIDIA Jetson Xavier.  
-- Ran at **~10–15 FPS** on-device using a lightweight perception pipeline with TensorRT deployment  
-- Used DeepSORT for reliable target re-identification in crowded indoor environments  
-- Implemented depth-aware hand gesture recognition with skeleton estimation and RGB-D sensing  
-📂 Repo: `sijeong-kim/RealTime-Object-Detection`
+**Edge AI project** for user-following and gesture-based control of a medical assistive robot on **NVIDIA Jetson Xavier**.
+
+- Built a lightweight on-device perception pipeline with **YOLOv4-tiny + TensorRT**
+- Used **DeepSORT** for reliable user tracking and re-identification in crowded indoor scenes
+- Implemented **body / hand skeleton estimation** with **trt_pose** and **trt_pose_hand**
+- Added **depth-aware hand separation** and gesture-based state control using RGB-D sensing
+- Validated the full pipeline at **~10–15 FPS** on Jetson
+
+---
+
+### 5) Real-time AKI Prediction System
+**Team project** for deploying an acute kidney injury prediction model in a realistic hospital-style streaming environment.
+
+- Built an inference pipeline to process **HL7/MLLP** admission and lab messages in real time
+- Designed the real-time inference flow by combining new creatinine test results with patient history
+- Sent automated HTTP alerts to a pager system on positive predictions
+- Contributed Docker-based runtime setup, **HL7/MLLP protocol handling**, and **Kubernetes deployment**
+- Detected **15/15 positive AKI cases** in scenario validation with **~0.06 s average inference latency**
+
 ---
 
 ## 📄 Education
 - **MSc Computing (Artificial Intelligence and Machine Learning), Imperial College London — Distinction**  
   Thesis: *Diversify Guided 3D Generation via Repulsive 3D Gaussian Splatting*
+
 - **BSc Computer Science and Engineering, Ewha Womans University — Summa Cum Laude (GPA: 4.2/4.3)**
+
+---
+
+## 🌱 Currently Focusing On
+- Building reliable and deployable AI systems
+- Expanding from vision and 3D AI into broader multimodal and generative AI applications
+- Turning research prototypes into practical user-facing products
+
+> **Note:** Some project repositories and materials are kept private due to research, privacy, or collaboration constraints. If helpful for evaluation, I would be happy to share additional technical details or selected materials upon request.
 
 ---
 
