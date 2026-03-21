@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="mailto:ssonge413@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Email-ssonge413%40gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square"></a>
+  <a href="mailto:sijeong.kim413@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Email-sijeong.kim413%40gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square"></a>
   <a href="https://www.linkedin.com/in/sijeong-kim"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Sijeong%20Kim-0A66C2?logo=linkedin&logoColor=white&style=flat-square"></a>
   <a href="https://github.com/sijeong-kim"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-sijeong--kim-000000?logo=github&logoColor=white&style=flat-square"></a>
 </p>
