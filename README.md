@@ -13,7 +13,7 @@
   <a href="https://github.com/sijeong-kim"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-sijeong--kim-000000?logo=github&logoColor=white&style=flat-square"></a>
 </p>
 
----
+> **Note:** Some project repositories and materials are kept private due to research, privacy, or collaboration constraints. Additional technical details can be shared upon request.
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&section=footer&color=CAFCEA&height=120" alt="footer">
