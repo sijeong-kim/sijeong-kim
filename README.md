@@ -23,15 +23,6 @@
 
 ---
 
-## ⭐ Selected Work
-- **Repulsive 3D Gaussian Splatting** — MSc thesis on improving diversity in diffusion-based text-to-3D generation
-- **Tori** — Personalized multimodal AI fairytale book platform
-- **Truncation-Robust 3D Human Pose Estimation** — Research on robust monocular 3D pose estimation under truncation
-
-> **Note:** Some project repositories and materials are kept private due to research, privacy, or collaboration constraints. Additional technical details can be shared upon request.
-
----
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&section=footer&color=CAFCEA&height=120" alt="footer">
 </p>
