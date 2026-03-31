@@ -15,14 +15,6 @@
 
 ---
 
-### 🔭 Interests
-`Generative AI` · `Multimodal AI` · `Computer Vision` · `3D Vision` · `ML Systems`
-
-### 🛠 Tech
-`Python` · `PyTorch` · `C/C++` · `CUDA` · `FastAPI` · `Docker` · `Kubernetes` · `AWS` · `Linux`
-
----
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&section=footer&color=CAFCEA&height=120" alt="footer">
 </p>
