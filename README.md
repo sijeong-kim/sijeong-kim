@@ -1,20 +1,25 @@
-<p align="center">
+<!-- <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=slice&section=header&color=30D5C8&height=140&animation=fadeIn&text=Hi,%20I'm%20Sijeong.&fontColor=ffffff&fontSize=42&fontAlign=65&fontAlignY=35" alt="header">
-</p>
+</p> -->
 
 <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=slice&section=header&color=30D5C8&height=140&animation=fadeIn&text=Hi,%20There!&fontColor=ffffff&fontSize=42&fontAlign=65&fontAlignY=35" alt="header">
+</p>
+
+<!-- <p align="center">
   <b>AI Engineer & Researcher</b><br/>
   Building vision, multimodal, and generative AI systems from research to deployment.
-</p>
+</p> -->
 
-<p align="center">
-  <a href="mailto:sijeong.kim413@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Email-sijeong.kim413%40gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square"></a>
+<!-- <p align="center">
+  <a href="mailto:ssonge413@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Email-ssonge413%40gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square"></a>
   <a href="https://www.linkedin.com/in/sijeong-kim"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Sijeong%20Kim-0A66C2?logo=linkedin&logoColor=white&style=flat-square"></a>
   <a href="https://github.com/sijeong-kim"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-sijeong--kim-000000?logo=github&logoColor=white&style=flat-square"></a>
-</p>
+</p> -->
 
+<!--
 > **Note:** Some project repositories and materials are kept private due to research, privacy, or collaboration constraints. Additional technical details can be shared upon request.
-
+-->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&section=footer&color=CAFCEA&height=120" alt="footer">
 </p>
